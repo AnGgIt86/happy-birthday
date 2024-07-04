@@ -1,25 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <!-- Metadata dokumen -->
-  <meta charset="utf-8" />
-  <title>For You</title>
-  <meta name="description" content="Happy birthday" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Favicon -->
-  <link rel="icon" type="image" href="il.png" />
-  <!-- Stylesheet Swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- Stylesheet Custom -->
-  <link rel="stylesheet" href="style.css" />
-  <!-- Library JavaScript -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- Library TypeIt -->
-  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-
-  <!-- CSS Custom -->
-  <style>
+    <head><!-- Metadata dokumen -->
+        <meta charset="utf-8">
+        <title>For You</title>
+        <meta name="description" content="Happy birthday">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> <!-- Favicon -->
+        <link rel="icon" type="image" href="gbr/il.png"> <!-- Stylesheet Swiper -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> <!-- Stylesheet Custom -->
+        <link rel="stylesheet" href="style.css"> <!-- Library JavaScript -->
+        <script src="https://unpkg.com/scrollreveal"></script> <!-- Library TypeIt -->
+        <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script> <!-- CSS Custom -->
+        <style>
     /* Definisi gaya CSS */
 
     /* CSS Anda */
@@ -60,7 +51,7 @@
 
     body {
       background: #000;
-      font-family: "Itim", cursive;
+      font-family: "Poppins", sans-serif;
       font-size: 14px;
       color: #fff;
       text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
@@ -401,102 +392,49 @@ footer a {
 }
     /* ... */
   </style>
-</head>
-
-<body>
-  <!-- Audio latar -->
-  <audio src="mhbd.mp3" id="linkmp3" class="sembunyi"></audio>
-  <!-- Overlay loading -->
-  <div class="overlay">
-    <div class="loading-message">Hai kamu!<br />Tunggu dulu ya..</div>
-    <!-- Tombol Love -->
-    <div id="loveIn" class="blocklove">
-      <!-- Love icon -->
-      <a href="##" target="_blank" class="lovein">
-        <svg class="line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <g transform="translate(2.550170, 3.550158)">
-            <path
-              d="M0.371729633,8.89614246 C-0.701270367,5.54614246 0.553729633,1.38114246 4.07072963,0.249142462 C5.92072963,-0.347857538 8.20372963,0.150142462 9.50072963,1.93914246 C10.7237296,0.0841424625 13.0727296,-0.343857538 14.9207296,0.249142462 C18.4367296,1.38114246 19.6987296,5.54614246 18.6267296,8.89614246 C16.9567296,14.2061425 11.1297296,16.9721425 9.50072963,16.9721425 C7.87272963,16.9721425 2.09772963,14.2681425 0.371729633,8.89614246 Z">
-            </path>
-            <path d="M13.23843,4.013842 C14.44543,4.137842 15.20043,5.094842 15.15543,6.435842"></path>
-          </g>
-        </svg>
-      </a>
-      <!-- Pesan Sentuh Love -->
-      <p id="ket">Tap LOVE</p>
-    </div>
-  </div>
-
-  <!-- Efek blur untuk latar belakang -->
-  <div id="bodyblur">
-    <img src="bg.jpg" id="wallpaper" />
-  </div>
-
-  <!-- Slider Swiper -->
-  <div class="swiper mySwiper">
-    
-    <div class="swiper-wrapper">
-      <!-- Slide 1 -->
-      <div class="swiper-slide">
-        <!-- Stiker dan teks -->
-        <div id="stiker1" class="scale0 stiker">
-          <img src="glg.gif" />
-        </div>
-        <h1 id="teks1" class="scale0 itim" style="font-size: 20px">
-          this is for youuu 🫶<br />
-          ⇒ ⇒ ⇒
-        </h1>
-      </div>
-      <!-- Slide 2 -->
-      <div class="swiper-slide">
-        <!-- Stiker dan teks -->
-        <div id="stiker2" class="scale0 stiker">
-          <img src="emh.gif" />
-        </div>
-        <h1 id="teks2" class="scale0 itim" style="font-size: 19px">
-          ciee, whose birthday is today 💞<br /><br /><span style="font-size: 16px; font-weight: 400">swipe & read to the end!</span><br /><br />
-            ⇒ ⇒ ⇒
-        </h1>
-      </div>
-      <!-- Slide 3 -->
-      <div class="swiper-slide">
-        <!-- Stiker dan teks -->
-        <div id="stiker3" class="scale0 stiker sembunyi">
-          <img src="kdp2.gif" />
-        </div>
-        <!-- Konten teks -->
-        <div id="scroll-container" class="blocktext">
-          <p id="teks3" class="itim" style="font-size: 16px; margin-left: 40px">
-            <span class="pink">Hai</span> sayangkuuu cintakuuuuuu
-            duniakuuu semestakuuuuuu, <br><br /><b class="putih merah"><i>happy birthday yaaa 💐</i></b><br />semogaa
-            dengan bertambahnya usiamuuu bisaa menjadiii
-            pribadi yang lebih baikk, panjangg umurr, sehat selaluu, berbakti
-            kepada orang tuaaa, serta segala doa dan cita citamuuu dikabulkann
-            dan segala urusan dipermudahkannn, <i>aminnn</i>.<br /><br />udaa
-            semakin dewasaaa sajaa yaa kamu inii 😋 jangan pernah takut gagal
-            yaaa, aku disiniii bakalan ngedukung kamuuuu selalu, jadiilahh
-            anak yang baik ya sayangg, jangann lupa bersyukurrr,<br /><br />maaf
-            ya kalo aku blum bisa jadi apa yang kamu mauuu, dan maaf bgt kalo
-            selama ini aku sering buat masalah, maaf ya 🫠 aku selalu berdoaa
-            agar kamu tetap berada dalam lindungan-Nya, intinyaa ttep mnjdi
-            pribadii yang lebih baikk.<br /><br />sekalilagii happy birthday
-            sayangkuuu cintakuuuuu,
-            <i>remain a good person whenever and wherever</i> 🥳💐🫶✨
-          </p>
-        </div>
-      </div>
-     
-    </div>
-   
-    <!-- Paginasi Swiper -->
-    <div class="swiper-pagination"></div>
-  </div>
-
-  <!-- Library JavaScript Swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Skrip JavaScript -->
-  <script>
+    </head>
+    <body><!-- Audio latar -->
+        <audio src="song.mp3" id="linkmp3" class="sembunyi"></audio> <!-- Overlay loading -->
+        <div class="overlay">
+            <div class="loading-message">
+                Hai kamu!<br>Tunggu dulu ya..
+            </div> <!-- Tombol Love -->
+            <div id="loveIn" class="blocklove"><!-- Love icon --> <a href="##" target="_blank" class="lovein">
+                    <svg class="line" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><g transform="translate(2.550170, 3.550158)">
+                            <path d="M0.371729633,8.89614246 C-0.701270367,5.54614246 0.553729633,1.38114246 4.07072963,0.249142462 C5.92072963,-0.347857538 8.20372963,0.150142462 9.50072963,1.93914246 C10.7237296,0.0841424625 13.0727296,-0.343857538 14.9207296,0.249142462 C18.4367296,1.38114246 19.6987296,5.54614246 18.6267296,8.89614246 C16.9567296,14.2061425 11.1297296,16.9721425 9.50072963,16.9721425 C7.87272963,16.9721425 2.09772963,14.2681425 0.371729633,8.89614246 Z"> 
+                            </path>
+                            <path d="M13.23843,4.013842 C14.44543,4.137842 15.20043,5.094842 15.15543,6.435842"></path> 
+                        </g>
+                    </svg> </a> <!-- Pesan Sentuh Love -->
+                <p id="ket">Tap LOVE</p>
+            </div>
+        </div> <!-- Efek blur untuk latar belakang -->
+        <div id="bodyblur"><img src="gbr/rina.jpg" id="wallpaper">
+        </div> <!-- Slider Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper"><!-- Slide 1 -->
+                <div class="swiper-slide"><!-- Stiker dan teks -->
+                    <div id="stiker1" class="scale0 stiker"><img src="gbr/glg.gif">
+                    </div>
+                    <h1 id="teks1" class="scale0 itim" style="font-size: 20px">Ini Untuk Kamu 🫶<br> ⇒ ⇒ ⇒</h1>
+                </div> <!-- Slide 2 -->
+                <div class="swiper-slide"><!-- Stiker dan teks -->
+                    <div id="stiker2" class="scale0 stiker"><img src="gbr/emh.gif">
+                    </div>
+                    <h1 id="teks2" class="scale0 itim" style="font-size: 19px">ciee, yang ulang tahunnya hari ini 💞<br><br><span style="font-size: 16px; font-weight: 400">Geser &amp; Baca Sampai Selesai!</span><br><br> ⇒ ⇒ ⇒</h1>
+                </div> <!-- Slide 3 -->
+                <div class="swiper-slide"><!-- Stiker dan teks -->
+                    <div id="stiker3" class="scale0 stiker sembunyi"><img src="gbr/kdp2.gif">
+                    </div> <!-- Konten teks -->
+                    <div id="scroll-container" class="blocktext">
+                        <p id="teks3" class="itim" style="font-size: 16px; margin-left: 40px"><span class="pink">Hai</span> sayangkuuu cintakuuuuuu duniakuuu semestakuuuuuu, <br><br><b class="putih merah"><i>happy birthday yaaa 💐</i></b><br>semogaa dengan bertambahnya usiamuuu bisaa menjadiii pribadi yang lebih baikk, panjangg umurr, sehat selaluu, berbakti kepada orang tuaaa, serta segala doa dan cita citamuuu dikabulkann dan segala urusan dipermudahkannn, <i>aminnn</i>.<br><br>udaa semakin dewasaaa sajaa yaa kamu inii 😋 jangan pernah takut gagal yaaa, aku disiniii bakalan ngedukung kamuuuu selalu, jadiilahh anak yang baik ya sayangg, jangann lupa bersyukurrr,<br><br>maaf ya kalo aku blum bisa jadi apa yang kamu mauuu, dan maaf bgt kalo selama ini aku sering buat masalah, maaf ya 🫠 aku selalu berdoaa agar kamu tetap berada dalam lindungan-Nya, intinyaa ttep mnjdi pribadii yang lebih baikk.<br><br>sekalilagii happy birthday sayangkuuu cintakuuuuu, <i>remain a good person whenever and wherever</i> 🥳💐🫶✨</p>
+                    </div>
+                </div>
+            </div> <!-- Paginasi Swiper -->
+            <div class="swiper-pagination"></div>
+        </div> <!-- Library JavaScript Swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!-- Skrip JavaScript -->
+        <script>
     // Inisialisasi variabel dan konstanta
     var teksSekarang = 1;
     const body = document.querySelector("body");
@@ -604,10 +542,7 @@ footer a {
 
     const scrollInterval = setInterval(autoScroll, 50); // Menjalankan scroll otomatis setiap 50ms
   </script>
-
-<footer>
-  <a href="https://himang.my.id">Himang.my.id</a>
-</footer>
-</body>
-
+        <footer><a href="https://github.com/AnGgIt86">AnGgIt86</a>
+        </footer>
+    </body>
 </html>
